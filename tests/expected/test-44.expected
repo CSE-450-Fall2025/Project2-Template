@@ -1,1 +1,1 @@
-ERROR (line 2): Cannot chain non-associative operators.
+ERROR (line 2): Expected token of type ')', but found type PREC3_OP
