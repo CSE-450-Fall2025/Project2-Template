@@ -45,7 +45,7 @@ my_tests: $(PROJECT)
 .PHONY: tests
 
 # List any files here that should trigger full recompilation when they change.
-KEY_FILES := 
+KEY_FILES := lexer.hpp helpers.hpp
 
 $(PROJECT):	$(PROJECT).cpp $(KEY_FILES)
 	$(CXX) $(CFLAGS) $(PROJECT).cpp -o $(PROJECT)
